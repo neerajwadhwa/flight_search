@@ -1,0 +1,64 @@
+{
+  "flightData": [
+    {
+      "id": 0,
+      "flightNo": "A12C1",
+      "carrier": "Lufthansa",
+      "src": "DEL",
+      "dst": "BLR",
+      "doj": "26-01-2017",
+      "dep": 1800,
+      "arr": 2030
+    },
+    {
+      "id": 1,
+      "flightNo": "A12C2",
+      "carrier": "AirAsia",
+      "src": "BLR",
+      "dst": "HYD",
+      "doj": "27-01-2017",
+      "dep": 1830,
+      "arr": 1930
+    },
+    {
+      "id": 2,
+      "flightNo": "A12C3",
+      "carrier": "QatarAirways",
+      "src": "BLR",
+      "dst": "DXB",
+      "doj": "28-02-2017",
+      "dep": 1000,
+      "arr": 1400
+    },
+    {
+      "id": 3,
+      "flightNo": "A12C4",
+      "carrier": "Lufthansa",
+      "src": "DEL",
+      "dst": "BLR",
+      "doj": "26-02-2017",
+      "dep": 1800,
+      "arr": 2030
+    },
+    {
+      "id": 4,
+      "flightNo": "A12C5",
+      "carrier": "Lufthansa",
+      "src": "DEL",
+      "dst": "BOM",
+      "doj": "24-03-2017",
+      "dep": 1400,
+      "arr": 1600
+    },
+    {
+      "id": 5,
+      "flightNo": "A12C6",
+      "carrier": "Lufthansa",
+      "src": "BLR",
+      "dst": "BOM",
+      "doj": "01-04-2017",
+      "dep": 1100,
+      "arr": 1230
+    }
+  ]
+}

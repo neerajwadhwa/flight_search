@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"con",
+				"console.log();"
+			],
+			[
+				"co",
+				"console.log();"
+			],
+			[
+				"re",
+				"request\t(?)"
+			],
+			[
+				"pro",
+				"promisifyingRead()"
+			],
+			[
+				"readf",
+				"fs.readFile(path, options, callback_);"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"r",
+				"res\t(?)"
+			],
+			[
+				"req",
+				"req\t(?)"
+			],
+			[
+				"for",
+				"formatter\t{}"
+			],
+			[
+				"to",
+				"to_send\t{}"
+			],
+			[
+				"ava",
+				"avatarWithHtml\t(str)"
+			],
+			[
+				"b",
+				"body\t(?)"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"get",
+				"get\t(?)"
+			],
+			[
+				"i",
+				"id"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"o",
+				"object"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/digitalapicraft/Documents/learning_JS/Node/apis/flight/search/flightdata.json",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/apis/flight/search/app.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/SimpleAPI/app.js",
+		"/Users/digitalapicraft/Documents/PostMan Collections/gifsCollection.postman_collection.json",
+		"/Users/digitalapicraft/Downloads/apiproxy 4/resources/jsc/JavaScript-1.js",
+		"/Users/digitalapicraft/Downloads/apiproxy 4/policies/Raise-Fault-1.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy 4/policies/JavaScript-1.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy 4/proxies/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/pagination/apiproxy/proxies/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/response-cache/apiproxy/policies/addheader.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/response-cache/apiproxy/policies/cacheforecast.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/oauth-client-credentials/apiproxy/policies/GenerateAccessToken.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-2/apiproxy/policies/RemoveAPIKey.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-2/apiproxy/policies/VerifyApiKey.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-2/README.md",
+		"/Users/digitalapicraft/Downloads/apiproxy 3/targets/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-1/README.md",
+		"/Users/digitalapicraft/Downloads/apiproxy 3/resources/node/helper.js",
+		"/Users/digitalapicraft/Downloads/apiproxy 3/proxies/default.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy 3/policies/BaaSCallout.xml",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/test/async_test.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/untitled.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/text.json",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/simple_serverjs.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/request_example.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/request_async.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/promise_example.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/promise_making.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/nodecellar/routes/wines.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/nodecellar/server.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/main.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/just_testing.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/get_avatar_async_waterfall.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/express_params_example.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/async_example_factorial.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/async_example_2.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/advanced_callbacks.js",
+		"/Users/digitalapicraft/node-samples-master/node/employees/package.json",
+		"/Users/digitalapicraft/node-samples-master/node/employees/server.js",
+		"/Users/digitalapicraft/api-platform-samples-master/doc-samples/nodejs-baas-cookbook/apiproxy/resources/node/server.js",
+		"/Users/digitalapicraft/api-platform-samples-master/doc-samples/nodejs-baas-cookbook/apiproxy/employees.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/doc-samples/nodejs-baas-cookbook/apiproxy/proxies/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/doc-samples/nodejs-baas-cookbook/apiproxy/targets/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/doc-samples/nodejs-baas-cookbook/apiproxy/resources/node/config.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/tutorialspoint/event_driven.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/tutorialspoint/main.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/beerlocker/server.js",
+		"/Users/digitalapicraft/node-samples-master/node/mashup/mashup.js",
+		"/Users/digitalapicraft/node-samples-master/node/echo/server.js",
+		"/Users/digitalapicraft/Downloads/apiproxy/proxies/default.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/OAuthAuthCodeGrant.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/sample.authpage.webserverflow.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/RedirectToLoginApp.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/InvalidUserCredentials.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/GenerateAuthorizationCode.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/GenerateAccessToken.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/DeleteForwardedHeaders.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/targets/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/oauth-login-app/apiproxy/policies/RedirectToLoginApp.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/oauth-login-app/apiproxy/proxies/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/oauth-login-app/apiproxy/targets/default.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/SetNewOrderResponse.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/policies/Regular-Expression-Protection.xml",
+		"/Users/digitalapicraft/Downloads/apiproxy/ThreatProtectionRegexJson.xml",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/promisifying_example.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/noo_blocking.html",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/express_params_test.js",
+		"/Users/digitalapicraft/Downloads/volos-node-app/app.js",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-1/apiproxy/targets/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-1/apiproxy/proxies/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-1/apiproxy/policies/VerifyApiKey.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/apikey-security-1/apiproxy/learn-edge.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/extract-json-payload/apiproxy/proxies/default.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/extract-json-payload/apiproxy/targets/default.xml",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/uploadedProxy/server.js",
+		"/Users/digitalapicraft/api-platform-samples-master/sample-proxies/variables/apiproxy/policies/variables.xml",
+		"/Users/digitalapicraft/api-platform-samples-master/doc-samples/javascript-cookbook/apiproxy/resources/jsc/minimize.js",
+		"/Users/digitalapicraft/api-platform-samples-master/setup/deploy.sh",
+		"/Users/digitalapicraft/api-platform-samples-master/setup/setenv.sh",
+		"/Users/digitalapicraft/api-platform-samples-master/learn-edge/simplest-proxy/apiproxy/proxies/default.xml",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/async_example.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/beerlocker/package.json",
+		"/Users/digitalapicraft/Documents/learning_JS/Object.assign.html",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/cart/package.json",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/cart/index.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/routes/videos.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/public/javascripts/vidzy.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/public/partials/video-form.html",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/public/partials/video-delete.html",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/public/partials/home.html",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/views/index.jade",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/views/layout.jade",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/app.js",
+		"/Users/digitalapicraft/Documents/learning_JS/Node/Vidzy/routes/index.js",
+		"/Users/digitalapicraft/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/digitalapicraft/Downloads/apiproxy/oauth.xml"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"end",
+			"   \t\t "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "flight_search.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
