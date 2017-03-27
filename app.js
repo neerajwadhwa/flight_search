@@ -20,7 +20,8 @@ app.get('/api/v1/flights', (req, res)=>{
 	var doj = req.query.doj;
 
 	var flight = getFlight.getFlight(req, res, src, dst, doj);
-	res.json(flight)
+	// res.header('X-Powered-By', 'Express-Framework');
+	res.json(flight);
 });
 
 app.listen(3000, ()=>{

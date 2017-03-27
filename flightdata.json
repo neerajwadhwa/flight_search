@@ -3,7 +3,7 @@
     {
       "id": 0,
       "flightNo": "A12C1",
-      "carrier": "Lufthansa",
+      "carrier": "Indigo",
       "src": "DEL",
       "dst": "BLR",
       "doj": "26-01-2017",
@@ -57,6 +57,16 @@
       "src": "BLR",
       "dst": "BOM",
       "doj": "01-04-2017",
+      "dep": 1100,
+      "arr": 1230
+    },
+    {
+      "id": 6,
+      "flightNo": "A12C7",
+      "carrier": "Lufthansa",
+      "src": "BLR",
+      "dst": "MUC",
+      "doj": "28-07-2019",
       "dep": 1100,
       "arr": 1230
     }
