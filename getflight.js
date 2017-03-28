@@ -13,7 +13,7 @@ var getFlight = function(req, res, src, dst, doj){
     	flight = {"message": "please provide all required params (src, dst, doj)"};
       	res.status(422);
       	res.statusMessage ="Missing Required Param";
-      	res.json({"message": "Please provide all required params as src, dst, doj"});
+      	res.json(flight);
       	return;
   	}
 
@@ -24,18 +24,22 @@ var getFlight = function(req, res, src, dst, doj){
 		if(dateMatches){
 			if(flightInstance.src === src && flightInstance.dst === dst){
       		console.log("in get data condition");
+      		flight = flightInstance
       		res.status(200);
         	res.statusMessage = "Flight Found";
         	found = true;
-			res.json(flightInstance);
+			res.json(flight);
 			}
 		}
   	});
+  	found = false;
+  	flight = {"message": "No flights with these details are found"};
   	console.log(count++);
+
   	if(!found){
   		res.status(404);
   		res.statusMessage = "Flight Not Found";
-    	res.json({"message": "No flights with these details are found"});
+    	res.json(flight);
   	}
 };
 module.exports.getFlight = getFlight;
