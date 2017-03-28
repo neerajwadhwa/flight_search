@@ -21,26 +21,20 @@ var getFlight = function(req, res, src, dst, doj){
 
 		dateMatches = utils.compareDate(flightInstance.doj, doj);
 		console.log(dateMatches);
-
-    	if(dateMatches && flightInstance.src === src && flightInstance.dst === dst){
+		if(dateMatches){
+			if(flightInstance.src === src && flightInstance.dst === dst){
       		console.log("in get data condition");
-			flight = flightInstance;
+      		res.status(200);
+        	res.statusMessage = "Flight Found";
         	found = true;
-		}
-		else{
-			res.status(404);
-  			res.statusMessage = "Flight Not Found";
+			res.json(flightInstance);
+			}
 		}
   	});
   	console.log(count++);
-  	if(found === true){
-  		res.status(200);
-        res.statusMessage = "Flight Found";
-    	// return flight;
-    	res.json(flight);
-  	}
-  	else{
-    	//return flight = {"message": "No flights with these details are found"};
+  	if(!found){
+  		res.status(404);
+  		res.statusMessage = "Flight Not Found";
     	res.json({"message": "No flights with these details are found"});
   	}
 };
