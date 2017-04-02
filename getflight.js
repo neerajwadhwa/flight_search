@@ -22,14 +22,14 @@ var getFlight = function(req, res, src, dst, doj){
 		dateMatches = utils.compareDate(flightInstance.doj, doj);
 		console.log(dateMatches);
 		if(dateMatches){
-			if(flightInstance.src === src && flightInstance.dst === dst){
-      		console.log("in get data condition");
-      		flight = flightInstance
-      		res.status(200);
-        	res.statusMessage = "Flight Found";
-        	found = true;
-			res.json(flight);
-			}
+		    if(flightInstance.src === src && flightInstance.dst === dst){
+      		        console.log("in get data condition");
+         		flight = flightInstance
+         		res.status(200);
+                 	res.statusMessage = "Flight Found";
+        	        found = true;
+		        res.json(flight);
+		    }
 		}
   	});
   	found = false;
@@ -37,9 +37,9 @@ var getFlight = function(req, res, src, dst, doj){
   	console.log(count++);
 
   	if(!found){
-  		res.status(404);
-  		res.statusMessage = "Flight Not Found";
-    	res.json(flight);
+  	    res.status(404);
+  	    res.statusMessage = "Flight Not Found";
+            res.json(flight);
   	}
 };
 module.exports.getFlight = getFlight;
